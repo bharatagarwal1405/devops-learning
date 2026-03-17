@@ -1,0 +1,23 @@
+{
+  "name": "app-user",
+  "version": "1.0.0",
+  "description": "User Management Micro-App",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "npx serve dist -p 3001"
+  },
+  "dependencies": {
+    "@shared/ui": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "serve": "^14.2.1",
+    "typescript": "^5.3.3"
+  }
+}
